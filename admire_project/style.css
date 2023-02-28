@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+.display{
+    display: flex;
+}
+.heading-style{
+    font-size: 2.5rem;
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('rantan_tata.jpg');
+    /* background-image: url('rantan_tata.jpg'); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+.background-section{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+.heading{
+    text-align: center;
+    color: white;
+    /* position: fixed; */
+    left: 47%;
+    margin-left: -54px;
+    font-size: 60px;
+}
+.images{
+    
+    height: 214px;
+    width: 319px;
+    margin-left: 19%;
+    display: inline;
+    
+}
+.image-block{
+    border: 1px solid black;
+    background-color: beige;
+}
+.main-section{
+    background-color: beige;
+    /* height: auto; */
+}
+.information{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    height: 200%;
+}
+.information-block{
+    background-color: antiquewhite;
+    height: auto;
+}
+.info-heading{
+    width: 20% !important;
+    align-items: center;
+    display: flex;
+}
+.infoblock-style{
+    text-align: justify;
+    height: 200px;
+    width: 63% !important;
+    position: relative;
+    margin-left: 1% !important;
+    
+}
+.information-block-1{
+    /* background-color: black; */
+    color: black;
+    height: auto !important;
+}
+.information-block-2{
+    margin-top: 150px;
+}
+.information-block-3{
+    margin-top: 50px;
+}
+.heading-3{
+    margin-top: -27%;
+}
+.infoblock-style p{
+    position: relative;
+    margin-left: 14% !important;
+}
+.info-list{
+    margin-left: 26px;
+    position: absolute;
+    left: 29%;
+}
